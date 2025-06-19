@@ -62,6 +62,41 @@ In this lab, we explored various text splitting techniques provided by the LangC
 9. **Split by HTML**  
    Parsed and split HTML content based on tag structure.
 
+##  Lab 4:  Document Embedding Lab using watsonx.ai and Hugging Face
+
+
+This lab demonstrates how to use embedding models from **IBM watsonx.ai** and **Hugging Face** to convert documents into numerical vectors. These embeddings capture the semantic meaning of the text, making them useful for downstream tasks such as semantic search, classification, and clustering.
+
+By the end of this lab, you will be able to effectively use these embedding models to transform and utilize textual data in your projects.
+
 ---
 
-This lab helped understand how to efficiently prepare and structure text for LLM-based applications using LangChain's flexible splitting utilities.
+## 📘 Table of Contents
+
+1. [🎯 Objectives](#objectives)
+2. [🛠️ Setup](#setup)  
+   - [Installing required libraries](#installing-required-libraries)  
+   - [Load data](#load-data)  
+   - [Split data](#split-data)  
+3. [🔵 Watsonx Embedding Model](#watsonx-embedding-model)  
+   - [Model description](#model-description)  
+   - [Build model](#build-model)  
+   - [Query embeddings](#query-embeddings)  
+   - [Document embeddings](#document-embeddings)  
+4. [🟣 Hugging Face Embedding Models](#huggingface-embedding-models)  
+   - [Model description](#model-description-1)  
+   - [Build model](#build-model-1)  
+   - [Query embeddings](#query-embeddings-1)  
+   - [Document embeddings](#document-embeddings-1)  
+
+---
+
+## 🎯 Objectives
+
+- Understand the concept of document embeddings.
+- Learn how to use watsonx.ai and Hugging Face embedding models.
+- Generate query and document embeddings.
+- Compare and utilize embeddings in downstream NLP tasks.
+
+---
+
